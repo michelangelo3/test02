@@ -1,20 +1,12 @@
-<html>
- <head>
-  <title>PHP-Test</title>
- </head>
- <body>
- <?php start(); ?>
- <br>
- <a href="test1.php">test1</a>
- <br>
- <a href="test2.php">test1</a>
- 
- </body>
-</html>
-
 <?php
-// Vorschau mit: php -S localhost:8000 -t /workspace/test02
-function start() {
-    print('hello, this is index.php');
-}
-?>
+// Includes und Requires
+require_once 'standard.php';
+
+StdHtmlHeader('PHP Testprojekt');
+
+print('<h3>hello, this is index.php</h3>');
+PrintLink('test1.php','test1');
+PrintLink('test2.php','test2');
+PrintLink('phpinfo.php','phpinfo');
+
+StdHtmlFooter();
