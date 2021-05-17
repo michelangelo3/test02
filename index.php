@@ -6,6 +6,9 @@
  <?php start(); ?>
  <br>
  <a href="test1.php">test1</a>
+ <br>
+ <a href="test2.php">test1</a>
+ 
  </body>
 </html>
 
