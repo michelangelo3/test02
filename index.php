@@ -10,6 +10,7 @@
 </html>
 
 <?php
+// Vorschau mit: php -S localhost:8000 -t /workspace/test02
 function start() {
     print('hello, this is index.php');
 }
